@@ -47,7 +47,8 @@ Rails.application.configure do
   config.active_record.verbose_query_logs = true
 
   config.active_storage.service = :local
-  # Rails.application.routes.default_url_options[:host] = 'localhost:3001'
+  Rails.application.routes.default_url_options[:host] = 'protected-tundra-50556.herokuapp.com'
+  
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
